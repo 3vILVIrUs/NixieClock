@@ -1,0 +1,8 @@
+Usage: java -jar nixieclock.jar [OPTION]...
+Set various settings on the nixie clock.
+
+	-p, --port PORT					specify PORT to be used for serial connection
+	-s, --speed SPEED				specify the SPEED to be used for serial connection (
+	-t, --time [TIME]				sets the time TIME or the current time if not specified
+	-o, --offset OFFSET				sets the hour offset to OFFSET (-12 - 12)
+	-d, --dst ON/OFF				set the daylight saving time to ON/OFF
